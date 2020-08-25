@@ -1,0 +1,118 @@
+{% set list = [
+  {
+    title: 'HNSCC',
+    icon: '',
+    hoverTitle: 'Kopf- und Halskarzinom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist in Kombination mit platin- und 5-fluorouracil-(5-FU)-haltiger Chemotherapie indiziert zur Behandlung von Erwachsenen mit rezidivierendem, nicht kurativ anzugehendem, lokal fortgeschrittenem oder metastasiertem PD-L1 exprimierendem Plattenepithelkarzinom des Kopf-Hals-Bereichs (HNSCC). <br><br> KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Behandlung von Erwachsenen mit rezidivierendem, nicht kurativ anzugehendem, lokal fortgeschrittenem oder metastasiertem HNSCC, die mit platin-basierter Chemotherapie vorbehandelt wurden und deren Tumore PD-L1 mit einem TPS &#8805;50% exprimieren.</p>',
+    href: '#'
+  },
+  {
+    title: 'MSI-H/dMMR',
+    icon: '',
+    hoverTitle: 'Tumore mit hoher Mikro<wbr>satelliten<wbr>instabilität',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> als Monotherapie ist indiziert bei folgenden Tumoren mit hoher Mikrosatelliteninstabilität (MSI-H) oder fehlerhafter DNA-Mismatch-Reparatur (dMMR):</p> <br>
+    <ul class="organ-hover-list">
+      <li>
+        für die Behandlung von erwachsenen Patienten mit nicht reserzierbarem oder metastasiertem kolorektalem Karzinom (CRC) nach vorangegangener Fluoropyrimidin-basierter Therapie in Kombination mit Irinotecan oder Oxaliplatin;
+      </li>
+      <li>
+        für die Behandlung von erwachsenen Patienten mit metastasierten Endometriumkarzinomen, Magenkarzinomen, Dünndarmkarzinomen oder Gallengangskarzinomen, die nach Standardtherapie progredient sind und für die keine befriedigenden Alternativen in der Behandlung zur Verfügung stehen.
+      </li>
+    </ul>
+    ',
+    href: '#'
+  },
+  {
+    title: 'cHL',
+    icon: '',
+    hoverTitle: 'Klassisches Hodgkin Lymphom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des refraktären oder rezidivierenden klassischen Hodgkin Lymphoms (rrcHL) bei Erwachsenen mit mindestens 3 Vorbehandlungen</p>',
+    href: '#'
+  },
+  {
+    title: 'PMBCL',
+    icon: '',
+    hoverTitle: 'Primäres mediastinales grosszelliges B-Zell-Lymphom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des refraktären oder rezidivierenden primären mediastinalen grosszelligen B-Zell-Lymphoms (rrPMBCL) bei Erwachsenen</p> <br> 
+    <ul class="organ-hover-list">
+      <li>
+        mit mindestens 2 Vorbehandlungen, von denen mindestens eine mit Rituximab durchgeführt wurde, und
+      </li>
+      <li>
+        die für eine autologe Stammzelltransplantation nicht in Frage kommen oder einen Rückfall nach Transplantation hatten.
+      </li>
+    </ul><br>
+    <p>KEYTRUDA<sup>&reg;</sup> ist nicht indiziert zur Behandlung von Patienten mit PMBCL, die eine dringende zytoreduktive Therapie benötigen.</p>',
+    href: '#'
+  },
+  {
+    title: 'NSCLC',
+    icon: '',
+    hoverTitle: 'Nicht-kleinzelliges Lungenkarzinom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Erstlinienbehandlung des metastasierten nicht-kleinzelligen Lungenkarzinoms (NSCLC) bei Erwachsenen, deren Tumore PD-L1 mit einem Tumour proportion score (TPS) &#8805;50% exprimieren und keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p> <br>
+    
+    <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Pemetrexed und Platin-Chemotherapie ist indiziert zur Erstlinienbehandlung des metastasierten nicht-plattenepithelialen NSCLC bei Erwachsenen, die keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p> <br>
+
+    <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Carboplatin und entweder Paclitaxel oder Nab-Paclitaxel ist indiziert zur Erstlinienbehandlung des metastasierten plattenepithelialen NSCLC bei Erwachsenen.</p><br> <br>
+
+    <p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Behandlung des fortgeschrittenen, metastasierten NSCLC nach vorangegangener Chemotherapie bei Erwachsenen, deren Tumore PD-L1 mit einem TPS &#8805;1% exprimieren. Patienten mit genomischen Tumoraberrationen vom EGFR oder ALK Typ sollten zudem eine für diese Aberrationen zugelassene Therapie erhalten haben, bevor sie mit KEYTRUDA<sup>&reg;</sup> behandelt werden.</p>',
+    href: '#'
+  },
+  {
+    title: 'Nierenzell<wbr>karzinom',
+    icon: '',
+    hoverTitle: 'Nierenzellkarzinom (RCC)',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Axitinib ist indiziert zur Erstlinienbehandlung des fortgeschrittenen Nierenzellkarzinoms (metastasiert oder rezidivierend) bei Erwachsenen.</p>',
+    href: '#'
+  },
+  {
+    title: 'MELANOM',
+    icon: '',
+    hoverTitle: 'Melanom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> kann angewendet werden bei nicht resezierbarem oder metastasiertem Melanom bei Erwachsenen. <br><br>
+    KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur adjuvanten Behandlung von Erwachsenen mit vollständig reseziertem Melanom Stadium III.</p>',
+    href: '#'
+  },
+  {
+    title: 'Urothelkarzinom',
+    icon: '',
+    hoverTitle: 'Urothelkarzinom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des lokal fortgeschrittenen oder metastasierten Urothelkarzinoms bei Erwachsenen, die mit platin-basierter Chemotherapie vorbehandelt wurden.</p>',
+    href: '#'
+  }
+] %}
+
+
+
+
+<section class="organs-sec">
+ <div class="organs-wrap">
+   <div class="organs">
+     <ul class="organs-list">
+      {% for item in list %}
+        <li>
+          <a href="{{ item.href }}" class="organs-list__item">
+            <i class="organs-list__item-icon">
+              <!-- {{ svg.icon(item.icon) }} -->
+            </i>
+            <p class="organs-list__item-title">
+              {{ item.title | safe}}
+            </p>
+          </a>
+
+          <div class="organs-list__hover">
+            <div class="organs-list__hover-inner">
+              <p class="organs-list__hover-title">
+                {{ item.hoverTitle | safe }}
+              </p>
+              <div class="organs-list__hover-text">
+                {{ item.hoverText | safe }}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+     </ul>
+   </div>
+ </div>
+</section>

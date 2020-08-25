@@ -1,0 +1,25 @@
+{% macro btnBase(text = "", type="button", color="", dataType=null, dataValue=[], class = "", id = "") %}
+  <button type="{{type}}"
+        {% if class %}
+        class="organs-btn {{color}} {{ class }}"
+        {% elif color %}
+        class="organs-btn {{color}}"
+        {% else %}
+        class="organs-btn"
+        {% endif %}
+
+        {% if dataType %}
+          {% for item in dataType %}
+            data-{{item}}="{{dataValue[loop.index - 1]}}"
+          {% endfor %}
+        {% endif %}
+
+        {% if id %}
+        id="{{id}}"
+        {% endif %}
+        >
+    <span>
+      {{ text }}
+    </span>
+  </button>
+{% endmacro %}

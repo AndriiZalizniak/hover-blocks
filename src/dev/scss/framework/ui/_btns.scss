@@ -1,0 +1,69 @@
+@import '../../general/mixins.scss';
+@import '../scss-variables.scss';
+
+.organs-btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 1.33em;
+  padding-right: 1.33em;
+  font-weight: 700;
+  color: var(--white);
+  border-radius: 1.5em;
+  overflow: hidden;
+  z-index: 0;
+
+  @include media(">tiny") {
+    font-size: 18px;
+    min-height: 2.667em;
+    min-width: 170px;
+  }
+
+  @include media("<=tiny") {
+    font-size: 16px;
+    min-height: 2.5em;
+    width: 100%;
+  }
+
+  * {
+    pointer-events: none;
+  }
+
+  &>span {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font: inherit;
+    transition: all 0.2s;
+
+    & > span {
+      font: inherit;
+      margin: auto;
+    }
+
+    svg {
+      position: relative;
+      left: -0.4em;
+      width: 26px;
+      margin-right: 0.1em;
+      color: var(--white);
+    }
+  }
+
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--red);
+    content: '';
+    z-index: -1;
+    transition: all 0.2s;
+    pointer-events: none;
+  }
+}

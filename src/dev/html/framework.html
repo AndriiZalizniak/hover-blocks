@@ -1,0 +1,182 @@
+{% import "./macros/_buttons.nj" as btn %}
+{% import "./macros/_svg-icons.nj" as svg %}
+{% import "./macros/_inputs.nj" as input %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include './template/partials/_head.nj' %}
+    <link rel="stylesheet" href="/styles/name-styles.css">
+  </head>
+
+  <style>
+    ul > li {
+      padding: 5px 0;
+    }
+    .organs-fram-colors > li {
+      display: flex;
+      align-items: center;
+    }
+    .organs-fram-colors > li > span {
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      box-shadow: 0 0 4px #000;
+    }
+    .organs-fram-block {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  </style>
+
+  <body>
+    <div class="organs-wrap">
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Color</p>
+        <hr>
+        <ul class="organs-lead name-fram-colors">
+          <li>
+            <span style="background:var(--white)"></span>var(--white): #FFFFFF
+          </li>
+          <li>
+            <span style="background:var(--text)"></span>var(--text): #000000
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Typography</p>
+        <hr>
+        <ul class="organs-fram-fonts">
+          <li>
+            <p class="organs-h1">.organs-h1 144px 72px</p>
+          </li>
+          <li>
+            <p class="organs-h2">.organs-h2 44px 24px</p>
+          </li>
+          <li>
+            <p class="organs-h3">.organs-h3 48px 44px 24px</p>
+          </li>
+          <li>
+            <p class="organs-h4">.organs-h4 36px 24px 18px</p>
+          </li>
+          <li>
+            <p class="organs-h5">.organs-h5 24px 18px</p>
+          </li>
+          <li>
+            <p class="organs-h6">.organs-h6 16px</p>
+          </li>
+          <li>
+            <p class="organs-lead ">.organs-lead 24px 16px</p>
+          </li>
+          <li>
+            <p class="organs-reg">.organs-reg 16px 14px</p>
+          </li>
+          <li>
+            <p class="organs-txt-ceo">.organs-txt-ceo 16px</p>
+          </li>
+          <li>
+            <p class="organs-small">.organs-small 12px</p>
+          </li>
+          <li>
+            <p class="organs-txt-bg">.organs-txt-bg 140px 50px</p>
+          </li>
+          <li>
+            <p class="organs-txt-strong">.organs-txt-strong 16px 14px</p>
+          </li>
+          <li>
+            <p class="organs-txt-strong-list">.organs-txt-strong-list 20px 18px</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Typography colors</p>
+        <hr>
+        <ul class="organs-lead name-fram-fonts">
+          <li>
+            <p class="organs-text">.organs-text</p>
+          </li>
+          <li>
+            <p class="organs-white" style="background: #ccc;">.organs-white</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Typography others</p>
+        <hr>
+        <ul class="organs-lead name-fram-fonts">
+          <li>
+            <p class="organs-txt-upper">.organs-txt-upper</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Buttons</p>
+        <hr>
+        <ul>
+          <li style="background: #CCCCCC;">
+            {{ btn.btnBase(".organs-btn") }}
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Links</p>
+        <hr>
+        <ul>
+          <li>
+            <a href="#" class="organs-link">.organs-link</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Inputs</p>
+        <hr>
+        input.inputTxt(type ="", placeholder = "", class = "", id = "")
+        <div style="background: #ccc; padding: 5px;">
+          {{ input.inputTxt("text", placeholder="placeholder") }}
+        </div> 
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Icons</p>
+        <hr>
+        <p style="margin: 20px 0;">
+          <strong>svg.icon('name')</strong>
+        </p>
+        <ul>
+          <li>
+            {{ svg.icon('icon-arrow-r') }} - <strong>icon-arrow-r</strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="organs-fram-block">
+        <hr>
+        <p class="organs-h5">Lists</p>
+        <hr>
+        <ul class="organs-list name-list">
+          <li>Some first item</li>
+          <li>Some second item</li>
+          <li>Some third item</li>
+        </ul>
+      </div>
+
+    {% include './template/_svg-icons-symbols.nj' %}
+  </body>
+</html>

@@ -1,0 +1,21 @@
+@import '../scss-variables.scss';
+@import '../../general/mixins.scss';
+
+body {
+  min-width: $extratiny;
+}
+
+body,
+html {
+  &.js-no-scroll {
+    overflow: hidden;
+  }
+}
+
+.organs-wrap {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}

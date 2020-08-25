@@ -1,0 +1,18 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --text: var(--black, #000);
+
+  --wrap: 960px;
+
+  @include media(">tiny") {
+    --gap: 48px;
+    --halfGap: 24px;
+  }
+
+  @include media("<=tiny") {
+    --gap: 32px;
+    --halfGap: 16px;
+  }
+}

@@ -1,0 +1,40 @@
+@import './scss-variables';
+@import '../general/mixins.scss';
+
+html,
+button,
+input,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.organs-h1 {}
+
+.organs-h2 {}
+
+.organs-h3 {}
+
+.organs-h4 {}
+
+.organs-h5 {}
+
+.organs-h6 {}
+
+.organs-lead {}
+
+.organs-reg {}
+
+.organs-small {}
+
+.organs-txt-upper {
+  text-transform: uppercase;
+}
+
+// Colors
+.organs-white {
+  color: var(--white);
+}
+
+.organs-text {
+  color: var(--text);
+}

@@ -1,0 +1,25 @@
+{% import "../macros/_svg-icons.nj" as svg %}
+{% import "../macros/_buttons.nj" as btn %}
+{% import "../macros/_inputs.nj" as input %}
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+{% include './partials/_head.nj' %}
+<link rel="stylesheet" href="/styles/name-styles.css">
+{% block styles %}{% endblock %}
+</head>
+<body>
+  {# {% include './partials/_header.nj' %} #}
+  
+<main>
+  {% block main %}{% endblock %}
+</main>
+
+  {# {% include './partials/_footer.nj' %} #}
+  {% include './_svg-icons-symbols.nj' %}
+  <script src="scripts/name-scripts.js"></script>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>
