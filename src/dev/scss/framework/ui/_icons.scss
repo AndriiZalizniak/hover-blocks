@@ -1,3 +1,6 @@
+@import '../../general/mixins.scss';
+@import '../../framework/scss-variables.scss';
+
 [class*="organs-icon"] {
   font-size: 20px;
   vertical-align: middle;
@@ -13,4 +16,23 @@
 .organs-icon-arrow-r {
   width: 1em;
   height: 1em;
+}
+
+.organs-head,
+.organs-thyroid-gland,
+.organs-virus,
+.organs-bladder,
+.organs-kidneys,
+.organs-body,
+.organs-lungs,
+.organs-cell {
+  @include media(">medium") {
+    width: 94px !important;
+    height: 94px !important;
+  }
+
+  @include media("<=medium") {
+    width: 65px !important;
+    height: 65px !important;
+  }
 }

@@ -21,6 +21,10 @@
       justify-content: space-between;
       align-items: flex-start;
       flex-wrap: wrap;
+      background-image: url('#{$pathToImg}hover-blocks/man.svg');
+      background-repeat: no-repeat;
+      background-position: center calc(100% - 20px);
+      background-size: auto auto;
     }
 
     @include media("<=medium") {
@@ -29,9 +33,8 @@
 
     &>li {
       position: relative;
-      // max-width: 350px;
       flex: 0 0 50%;
-      
+
       @include media(">medium") {
         padding: 24px 16px;
       }
@@ -46,7 +49,7 @@
         }
 
         .organs-list__hover {
-          right: 30px;
+          right: 16px;
           left: initial;
         }
       }
@@ -58,9 +61,8 @@
       justify-content: flex-start;
       align-items: center;
       position: relative;
-      
       background-color: #EDEDED;
-      
+
       @include media(">medium") {
         width: 350px;
         box-shadow: 0 0 15px 10px rgba(90, 90, 90, 0.2);
@@ -79,13 +81,13 @@
         left: 0;
         height: 2px;
         background-color: #6CBC48;
-        opacity: 0;
-        transition: opacity .2s linear;
+        clip-path: inset(0 100% 0 0);
+        transition: clip-path .1s linear;
       }
 
       &:hover {
         &::before {
-          opacity: 1;
+          clip-path: inset(0 0 0 0);
         }
 
         &+.organs-list__hover {
@@ -98,14 +100,13 @@
         margin-right: 16px;
         display: inline-block;
         border-radius: 50%;
-        background-color: #6CBC48;
         flex-shrink: 0;
 
         @include media(">medium") {
           width: 95px;
           height: 95px;
         }
-  
+
         @include media("<=medium") {
           width: 65px;
           height: 65px;
@@ -125,7 +126,7 @@
       padding-top: 20px;
       position: absolute;
       top: calc(100% + -10px);
-      left: 30px;
+      left: 16px;
       opacity: 0;
       transition: opacity .2s .2s linear, clip-path .2s .2s linear;
       clip-path: inset(0 0 100% 0);
@@ -160,9 +161,16 @@
 
       &-text {
         &>p {
-          font-size: 16px;
           line-height: 1.4em;
           color: #FFFFFF;
+
+          @include media(">medium") {
+            font-size: 16px;
+          }
+    
+          @include media("<=medium") {
+            font-size: 14px;
+          }
         }
       }
     }
@@ -172,10 +180,17 @@
     padding-left: 18px;
 
     &>li {
-      list-style: disc;
+      line-height: 1.4em;
       color: #FFFFFF;
-      font: inherit;
-      line-height: inherit;
+      list-style: disc;
+
+      @include media(">medium") {
+        font-size: 16px;
+      }
+
+      @include media("<=medium") {
+        font-size: 14px;
+      }
     }
   }
 }

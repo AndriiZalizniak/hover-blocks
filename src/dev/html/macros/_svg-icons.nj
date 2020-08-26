@@ -1,6 +1,6 @@
 {% macro icon(name = "") %}
 
-  <svg class="organs-icon name-{{name}}">
+  <svg class="organs-icon organs-{{name}}">
     <use xlink:href="#{{name}}" width="100%" height="100%"/>
   </svg>
 

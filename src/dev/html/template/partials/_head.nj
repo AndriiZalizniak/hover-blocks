@@ -29,7 +29,7 @@
 <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
 <meta name="msapplication-TileColor" content="#2F3BA2">
 
-<link rel="manifest" href="manifest.json">
+{# <link rel="manifest" href="manifest.json"> #}
 <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
 <!-- Color the status bar on mobile devices -->
 <meta name="theme-color" content="#ffffff">
@@ -39,20 +39,4 @@
 <link rel="canonical" href="http://www.example.com/">
 -->
 
-<!--<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&amp;subset=cyrillic" rel="stylesheet">-->
-
-<script>
-  WebFontConfig = {
-    google: {
-      families: ['Roboto:100,300,400,700:cyrillic']
-    }
-  };
-
-  (function (d) {
-    var wf = d.createElement('script'),
-      s = d.scripts[0];
-    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-    wf.async = true;
-    s.parentNode.insertBefore(wf, s);
-  })(document);
-</script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&amp;subset=cyrillic" rel="stylesheet">

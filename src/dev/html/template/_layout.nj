@@ -6,19 +6,18 @@
 <html lang="">
 <head>
 {% include './partials/_head.nj' %}
-<link rel="stylesheet" href="/styles/name-styles.css">
+<link rel="stylesheet" href="styles/organs-styles.css">
 {% block styles %}{% endblock %}
 </head>
 <body>
   {# {% include './partials/_header.nj' %} #}
-  
 <main>
   {% block main %}{% endblock %}
 </main>
 
   {# {% include './partials/_footer.nj' %} #}
   {% include './_svg-icons-symbols.nj' %}
-  <script src="scripts/name-scripts.js"></script>
+  <script src="scripts/organs-scripts.js"></script>
 
   {% block scripts %}{% endblock %}
 </body>
