@@ -25,14 +25,8 @@
 .organs-kidneys,
 .organs-body,
 .organs-lungs,
-.organs-cell {
-  @include media(">medium") {
-    width: 94px !important;
-    height: 94px !important;
-  }
-
-  @include media("<=medium") {
-    width: 65px !important;
-    height: 65px !important;
-  }
+.organs-cell,
+.organs-intestines {
+  width: 65px !important;
+  height: 65px !important;
 }

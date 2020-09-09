@@ -73,7 +73,8 @@
     hoverTitle: 'Mélanome',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> peut être employé chez les adultes atteints d’un mélanome non résécable ou métastatique.<br><br>
     KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement adjuvant des adultes atteints d’un mélanome de stade III entièrement réséqué.</p>',
-    href: '#'
+    href: '#',
+    extraClass: true
   },
   {
     title: 'Carcinome urothélial',
@@ -82,6 +83,15 @@
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué dans le traitement du carcinome urothélial localement avancé ou métastatique chez les adultes ayant déjà reçu un traitement par chimiothérapie à base de platine.
     </p>',
     href: '#'
+  },
+  {
+    title: 'Carcinome colorectal',
+    icon: 'intestines',
+    hoverTitle: 'Carcinome urothélial',
+    hoverText: "<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement de première ligne de patients adultes atteints de carcinome colorectal (CC) métastatique présentant une forte instabilité microsatellitaire (MSI-H) ou un déficit de réparation des mésappariements de l'ADN (dMMR)
+    </p>",
+    href: '#',
+    extraClass: true
   }
 ] %}
 
@@ -103,7 +113,7 @@
             </p>
           </a>
 
-          <div class="organs-list__hover">
+          <div class="organs-list__hover {% if item.extraClass %} organs-list__hover--top {% endif %}">
             <div class="organs-list__hover-inner">
               <p class="organs-list__hover-title">
                 {{ item.hoverTitle | safe }}

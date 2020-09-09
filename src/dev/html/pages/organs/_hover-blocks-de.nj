@@ -33,7 +33,7 @@
     title: 'PMBCL',
     icon: 'body',
     hoverTitle: 'Primäres mediastinales grosszelliges B-Zell-Lymphom',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des refraktären oder rezidivierenden primären mediastinalen grosszelligen B-Zell-Lymphoms (rrPMBCL) bei Erwachsenen</p> <br> 
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des refraktären oder rezidivierenden primären mediastinalen grosszelligen B-Zell-Lymphoms (rrPMBCL) bei Erwachsenen</p>
     <ul class="organ-hover-list">
       <li>
         mit mindestens 2 Vorbehandlungen, von denen mindestens eine mit Rituximab durchgeführt wurde, und
@@ -41,7 +41,7 @@
       <li>
         die für eine autologe Stammzelltransplantation nicht in Frage kommen oder einen Rückfall nach Transplantation hatten.
       </li>
-    </ul><br>
+    </ul>
     <p>KEYTRUDA<sup>&reg;</sup> ist nicht indiziert zur Behandlung von Patienten mit PMBCL, die eine dringende zytoreduktive Therapie benötigen.</p>',
     href: '#'
   },
@@ -49,11 +49,11 @@
     title: 'NSCLC',
     icon: 'lungs',
     hoverTitle: 'Nicht-kleinzelliges Lungenkarzinom',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Erstlinienbehandlung des metastasierten nicht-kleinzelligen Lungenkarzinoms (NSCLC) bei Erwachsenen, deren Tumore PD-L1 mit einem Tumour proportion score (TPS) &#8805;50% exprimieren und keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p> <br>
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Erstlinienbehandlung des metastasierten nicht-kleinzelligen Lungenkarzinoms (NSCLC) bei Erwachsenen, deren Tumore PD-L1 mit einem Tumour proportion score (TPS) &#8805;50% exprimieren und keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p>
     
-    <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Pemetrexed und Platin-Chemotherapie ist indiziert zur Erstlinienbehandlung des metastasierten nicht-plattenepithelialen NSCLC bei Erwachsenen, die keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p> <br>
+    <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Pemetrexed und Platin-Chemotherapie ist indiziert zur Erstlinienbehandlung des metastasierten nicht-plattenepithelialen NSCLC bei Erwachsenen, die keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p>
 
-    <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Carboplatin und entweder Paclitaxel oder Nab-Paclitaxel ist indiziert zur Erstlinienbehandlung des metastasierten plattenepithelialen NSCLC bei Erwachsenen.</p><br> 
+    <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Carboplatin und entweder Paclitaxel oder Nab-Paclitaxel ist indiziert zur Erstlinienbehandlung des metastasierten plattenepithelialen NSCLC bei Erwachsenen.</p> 
 
     <p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Behandlung des fortgeschrittenen, metastasierten NSCLC nach vorangegangener Chemotherapie bei Erwachsenen, deren Tumore PD-L1 mit einem TPS &#8805;1% exprimieren. Patienten mit genomischen Tumoraberrationen vom EGFR oder ALK Typ sollten zudem eine für diese Aberrationen zugelassene Therapie erhalten haben, bevor sie mit KEYTRUDA<sup>&reg;</sup> behandelt werden.</p>',
     href: '#'
@@ -71,7 +71,8 @@
     hoverTitle: 'Melanom',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> kann angewendet werden bei nicht resezierbarem oder metastasiertem Melanom bei Erwachsenen. <br><br>
     KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur adjuvanten Behandlung von Erwachsenen mit vollständig reseziertem Melanom Stadium III.</p>',
-    href: '#'
+    href: '#',
+    extraClass: true
   },
   {
     title: 'Urothelkarzinom',
@@ -79,6 +80,14 @@
     hoverTitle: 'Urothelkarzinom',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des lokal fortgeschrittenen oder metastasierten Urothelkarzinoms bei Erwachsenen, die mit platin-basierter Chemotherapie vorbehandelt wurden.</p>',
     href: '#'
+  },
+  {
+    title: 'Kolorektales Karzinom',
+    icon: 'intestines',
+    hoverTitle: 'Kolorektales Karzinom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> als Monotherapie ist indiziert zur Erstlinienbehandlung von erwachsenen Patienten mit metastasiertem kolorektalem Karzinom (CRC) mit hoher Mikrosatelliteninstabilität (MSI-H) oder fehlerhafter DNA-Mismatch-Reparatur (dMMR)</p>',
+    href: '#',
+    extraClass: true
   }
 ] %}
 
@@ -100,7 +109,7 @@
             </p>
           </a>
 
-          <div class="organs-list__hover">
+          <div class="organs-list__hover {% if item.extraClass %} organs-list__hover--top {% endif %}">
             <div class="organs-list__hover-inner">
               <p class="organs-list__hover-title">
                 {{ item.hoverTitle | safe }}
