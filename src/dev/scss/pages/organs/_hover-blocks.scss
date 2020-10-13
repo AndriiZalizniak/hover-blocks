@@ -161,13 +161,17 @@
         padding: 16px;
         background-color: #37424A;
 
-        @include media(">1365px") {
-          max-width: 600px;
-        }
+        // @include media(">1365px") {
+        //   max-width: 600px;
+        // }
 
         @include media(">tiny", "<=1365px") {
-          width: 600px;
+          // width: 600px;
           margin: 0 auto;
+        }
+
+        @include media(">tiny") {
+          width: 750px;
         }
 
         &::before {
@@ -193,14 +197,15 @@
       &-text {
         line-height: 1.25em;
         color: #FFFFFF;
+        font-size: 12px;
 
-        @include media(">1365px") {
-          font-size: 14px;
-        }
+        // @include media(">1365px") {
+        //   font-size: 14px;
+        // }
   
-        @include media("<=1365px") {
-          font-size: 12px;
-        }
+        // @include media("<=1365px") {
+        //   font-size: 12px;
+        // }
 
         &>p+p{
           padding-top: 12px;

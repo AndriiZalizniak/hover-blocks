@@ -17,7 +17,7 @@
 
   {# {% include './partials/_footer.nj' %} #}
   {% include './_svg-icons-symbols.nj' %}
-  <script src="scripts/organs-scripts.js"></script>
+  <!-- <script src="scripts/organs-scripts.js"></script> -->
 
   {% block scripts %}{% endblock %}
 </body>
