@@ -70,7 +70,8 @@
     icon: 'kidneys',
     hoverTitle: 'Nierenzellkarzinom (RCC)',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Axitinib ist indiziert zur Erstlinienbehandlung des fortgeschrittenen Nierenzellkarzinoms (metastasiert oder rezidivierend) bei Erwachsenen.</p>',
-    href: '#'
+    href: '#',
+    extraClass: true
   },
   {
     title: 'MELANOM',
@@ -86,7 +87,8 @@
     icon: 'bladder',
     hoverTitle: 'Urothelkarzinom',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des lokal fortgeschrittenen oder metastasierten Urothelkarzinoms bei Erwachsenen, die mit platin-basierter Chemotherapie vorbehandelt wurden.</p>',
-    href: '#'
+    href: '#',
+    extraClass: true
   },
   {
     title: 'Kolorektales Karzinom',

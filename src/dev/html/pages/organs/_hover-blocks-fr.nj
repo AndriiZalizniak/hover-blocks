@@ -72,7 +72,8 @@
     icon: 'kidneys',
     hoverTitle: 'Carcinome à cellules rénales (CCR)',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup>, en association à l’axitinib, est indiqué dans le traitement de première ligne du carcinome à cellules rénales avancé (métastatique ou récidivant) chez les adultes.</p>',
-    href: '#'
+    href: '#',
+    extraClass: true
   },
   {
     title: 'Mélanome',
@@ -89,7 +90,8 @@
     hoverTitle: 'Carcinome urothélial',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué dans le traitement du carcinome urothélial localement avancé ou métastatique chez les adultes ayant déjà reçu un traitement par chimiothérapie à base de platine.
     </p>',
-    href: '#'
+    href: '#',
+    extraClass: true
   },
   {
     title: 'Carcinome colorectal',
