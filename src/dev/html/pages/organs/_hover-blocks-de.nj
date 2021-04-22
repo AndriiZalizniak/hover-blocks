@@ -18,15 +18,14 @@
       <li>
         für die Behandlung von erwachsenen Patienten mit metastasierten Endometriumkarzinomen, Magenkarzinomen, Dünndarmkarzinomen oder Gallengangskarzinomen, die nach Standardtherapie progredient sind und für die keine befriedigenden Alternativen in der Behandlung zur Verfügung stehen.
       </li>
-    </ul>
-    ',
+    </ul>',
     href: '#'
   },
   {
     title: 'cHL',
     icon: 'cell',
     hoverTitle: 'Klassisches Hodgkin Lymphom',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des refraktären oder rezidivierenden klassischen Hodgkin Lymphoms (rrcHL) bei Erwachsenen mit mindestens 3 Vorbehandlungen</p>',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Behandlung von erwachsenen Patienten mit rezidivierendem oder refraktärem klassischem Hodgkin Lymphom (cHL), bei denen eine autologe oder allogene Stammzelltransplantation (SZT) keine Behandlungsoption darstellt.KEYTRUDA® ist als Monotherapie indiziert zur Behandlung von pädiatrischen Patienten mit rezidivierendem oder refraktärem cHL, für die keine zufriedenstellenden Behandlungsoptionen zur Verfügung stehen.',
     href: '#'
   },
   {
@@ -50,7 +49,7 @@
     icon: 'lungs',
     hoverTitle: 'Nicht-kleinzelliges Lungenkarzinom',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist als Monotherapie indiziert zur Erstlinienbehandlung des metastasierten nicht-kleinzelligen Lungenkarzinoms (NSCLC) bei Erwachsenen, deren Tumore PD-L1 mit einem Tumour proportion score (TPS) &#8805;50% exprimieren und keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p>
-    
+
     <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Pemetrexed und Platin-Chemotherapie ist indiziert zur Erstlinienbehandlung des metastasierten nicht-plattenepithelialen NSCLC bei Erwachsenen, die keine genomischen Tumoraberrationen vom EGFR oder ALK Typ haben.</p>
 
     <p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Carboplatin und entweder Paclitaxel oder Nab-Paclitaxel ist indiziert zur Erstlinienbehandlung des metastasierten plattenepithelialen NSCLC bei Erwachsenen.</p> 
@@ -66,14 +65,6 @@
     href: '#'
   },
   {
-    title: 'Nierenzell<wbr>karzinom',
-    icon: 'kidneys',
-    hoverTitle: 'Nierenzellkarzinom (RCC)',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Axitinib ist indiziert zur Erstlinienbehandlung des fortgeschrittenen Nierenzellkarzinoms (metastasiert oder rezidivierend) bei Erwachsenen.</p>',
-    href: '#',
-    extraClass: true
-  },
-  {
     title: 'MELANOM',
     icon: 'virus',
     hoverTitle: 'Melanom',
@@ -83,10 +74,10 @@
     extraClass: true
   },
   {
-    title: 'Urothelkarzinom',
-    icon: 'bladder',
-    hoverTitle: 'Urothelkarzinom',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des lokal fortgeschrittenen oder metastasierten Urothelkarzinoms bei Erwachsenen, die mit platin-basierter Chemotherapie vorbehandelt wurden.</p>',
+    title: 'Nierenzell<wbr>karzinom',
+    icon: 'kidneys',
+    hoverTitle: 'Nierenzellkarzinom (RCC)',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> in Kombination mit Axitinib ist indiziert zur Erstlinienbehandlung des fortgeschrittenen Nierenzellkarzinoms (metastasiert oder rezidivierend) bei Erwachsenen.</p>',
     href: '#',
     extraClass: true
   },
@@ -97,17 +88,22 @@
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> als Monotherapie ist indiziert zur Erstlinienbehandlung von erwachsenen Patienten mit metastasiertem kolorektalem Karzinom (CRC) mit hoher Mikrosatelliteninstabilität (MSI-H) oder fehlerhafter DNA-Mismatch-Reparatur (dMMR)</p>',
     href: '#',
     extraClass: true
+  },
+  {
+    title: 'Urothelkarzinom',
+    icon: 'bladder',
+    hoverTitle: 'Urothelkarzinom',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> ist indiziert zur Behandlung des lokal fortgeschrittenen oder metastasierten Urothelkarzinoms bei Erwachsenen, die mit platin-basierter Chemotherapie vorbehandelt wurden.</p>',
+    href: '#',
+    extraClass: true
   }
 ] %}
 
-
-
-
 <section class="organs-sec">
- <div class="organs-wrap">
-   <div class="organs">
-     <ul class="organs-list">
-      {% for item in list %}
+  <div class="organs-wrap">
+    <div class="organs">
+      <ul class="organs-list">
+        {% for item in list %}
         <li>
           <a href="{{ item.href }}" class="organs-list__item">
             <i class="organs-list__item-icon">
@@ -129,8 +125,8 @@
             </div>
           </div>
         </li>
-      {% endfor %}
-     </ul>
-   </div>
- </div>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </section>

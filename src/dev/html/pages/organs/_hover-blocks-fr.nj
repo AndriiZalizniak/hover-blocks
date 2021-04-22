@@ -3,22 +3,22 @@
     title: 'HNSCC',
     icon: 'head',
     hoverTitle: 'Carcinome de la tête et du cou',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup>, en association à une chimiothérapie à base de sels de platine et de 5-fluorouracile (5-FU), est indiqué dans le traitement des adultes atteints d’un carcinome épidermoïde de la tête et du cou (CETEC) récidivant, ne pouvant faire l’objet d’un traitement curatif, localement avancé ou métastatique et qui exprime PD-L1. <br><br>
-    KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement du CETEC récidivant, ne pouvant faire l’objet d’un traitement curatif, localement avancé ou métastatique chez des adultes traités précédemment par une chimiothérapie à base de sels de platine et dont la tumeur exprime PD-L1 avec un TPS &#8805;50%.
-    </p>',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup>, en association à une chimiothérapie à base de sels de platine et de 5-fluorouracile (5-FU), est indiqué dans le traitement des adultes atteints d’un carcinome épidermoïde de la tête et du cou (CETEC) récidivant, ne pouvant faire l’objet d’un traitement curatif, localement avancé ou métastatique et qui exprime PD-L1.
+    <br><br>
+    KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement du CETEC récidivant, ne pouvant faire l’objet d’un traitement curatif, localement avancé ou métastatique chez des adultes traités précédemment par une chimiothérapie à base de sels de platine et dont la tumeur exprime PD-L1 avec un TPS &#8805;50%.</p>',
     href: '#'
   },
   {
     title: 'MSI-H/dMMR',
     icon: 'thyroid-gland',
     hoverTitle: 'Tumeurs présentant une forte instabilité microsatellitaire',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement des tumeurs présentant une forte instabilité microsatellitaire (MSI-H) ou un déficit de réparation des mésappariements de l’ADN (deficient DNA Mismatch Repair, dMMR) suivantes:</p> <br>
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement des tumeurs présentant une forte instabilité microsatellitaire (MSI-H) ou un déficit du système de réparation des mésappariements de l&quot;ADN (deficient DNA Mismatch Repair, dMMR) suivantes:</p> <br>
     <ul class="organ-hover-list">
       <li>
-        chez les patients adultes atteints d’un carcinome colorectal (CC) non résécable ou métastatique qui ont reçu un traitement antérieur à base de fluoropyrimidine en association avec de l’irinotécan ou de l’oxaliplatine;
+        chez les patients adultes atteints d&quot;un carcinome colorectal (CC) non résécable ou métastatique qui ont reçu un traitement antérieur à base de fluoropyrimidine en association avec de l&quot;irinotécan ou de l&quot;oxaliplatine;
       </li>
       <li>
-        chez les patients adultes atteints de carcinomes métastatiques de l’endomètre, de l’estomac, de l’intestin grêle ou des voies biliaires, ayant progressé après le traitement standard et pour lesquels il n’existe pas d’alternatives thérapeutiques satisfaisantes.
+        chez les patients adultes atteints de carcinomes métastatiques de l&quot;endomètre, de l&quot;estomac, de l&quot;intestin grêle ou des voies biliaires, ayant progressé après le traitement standard et pour lesquels il n&quot;existe pas d&quot;alternatives thérapeutiques satisfaisantes.
       </li>
     </ul>
     ',
@@ -28,7 +28,7 @@
     title: 'cHL',
     icon: 'cell',
     hoverTitle: 'Lymphome de Hodgkin classique',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué dans le traitement du lymphome de Hodgkin classique réfractaire ou récidivant (LHcrr) chez les adultes ayant reçu au moins 3 traitements antérieurs.</p>',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement du lymphome de Hodgkin classique (LHc) récidivant ou réfractaire chez les patients adultes pour lesquels la transplantation de cellules souches (TCS) autologue ou allogénique ne constitue pas une option thérapeutique.',
     href: '#'
   },
   {
@@ -53,11 +53,11 @@
     hoverTitle: 'Cancer du poumon non à petites cellules',
     hoverText: '<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement de première ligne du cancer du poumon non à petites cellules (CPNPC) au stade métastatique chez des adultes dont la tumeur exprime PD-L1 avec un score de proportion tumorale (TPS) ≥50%, sans aberrations tumorales génomiques de type EGFR ou ALK.</p> <br>
     
-    <p>KEYTRUDA<sup>&reg;</sup>, en association à une chimiothérapie pemetrexed et sel de platine, est indiqué dans le traitement de première ligne du CPNPC au stade métastatique, non-épidermoïde chez des adultes sans aberrations tumorales génomiques de type EGFR ou ALK.</p> <br>
+    <p>KEYTRUDA<sup>&reg;</sup>, en association à une chimiothérapie par pémétrexed et sel de platine, est indiqué dans le traitement de première ligne du CPNPC non-épidermoïde au stade métastatique chez des adultes sans aberrations tumorales génomiques de type EGFR ou ALK.</p> <br>
 
-    <p>KEYTRUDA<sup>&reg;</sup>, en association au carboplatine et soit au paclitaxel, soit au nab-paclitaxel, est indiqué dans le traitement de première ligne du CPNPC épidermoïde au stade métastatique chez les adultes.</p><br> 
+    <p>KEYTRUDA<sup>&reg;</sup>, en association au carboplatine et soit au paclitaxel, soit au nab-paclitaxel, est indiqué dans le traitement de première ligne du CPNPC épidermoïde au stade métastatique chez les adultes.</p><br>
 
-    <p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement du CPNPC au stade avancé, métastatique après chimiothérapie préalable chez des adultes dont la tumeur exprime PD-L1 avec un TPS ≥1%. Les patients avec aberrations tumorales génomiques de type EGFR ou ALK doivent de plus avoir reçu un traitement autorisé pour ces aberrations avant d’être traités par KEYTRUDA<sup>&reg;</sup></p>',
+    <p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement du CPNPC au stade avancé, métastatique après chimiothérapie préalable chez des adultes dont la tumeur exprime PD-L1 avec un TPS ≥1%. Les patients avec aberrations tumorales génomiques de type EGFR ou ALK doivent de plus avoir reçu un traitement autorisé pour ces aberrations avant d&quot;être traités par Keytruda.</p>',
     href: '#'
   },
   {
@@ -66,14 +66,6 @@
     hoverTitle: 'Lorem ipsum title',
     hoverText: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
     href: '#'
-  },
-  {
-    title: 'Carcinome rénal',
-    icon: 'kidneys',
-    hoverTitle: 'Carcinome à cellules rénales (CCR)',
-    hoverText: '<p>KEYTRUDA<sup>&reg;</sup>, en association à l’axitinib, est indiqué dans le traitement de première ligne du carcinome à cellules rénales avancé (métastatique ou récidivant) chez les adultes.</p>',
-    href: '#',
-    extraClass: true
   },
   {
     title: 'Mélanome',
@@ -85,6 +77,23 @@
     extraClass: true
   },
   {
+    title: 'Carcinome rénal',
+    icon: 'kidneys',
+    hoverTitle: 'Carcinome à cellules rénales (CCR)',
+    hoverText: '<p>KEYTRUDA<sup>&reg;</sup>, en association à l’axitinib, est indiqué dans le traitement de première ligne du carcinome à cellules rénales avancé (métastatique ou récidivant) chez les adultes.</p>',
+    href: '#',
+    extraClass: true
+  },
+  {
+    title: 'Carcinome colorectal',
+    icon: 'intestines',
+    hoverTitle: 'Carcinome colorectal présentant forte instabilité microsatellitaire (1L)',
+    hoverText: "<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement de première ligne de patients adultes atteints de carcinome colorectal (CC) métastatique présentant une forte instabilité microsatellitaire (MSI-H) ou un déficit du système de réparation des mésappariements de l'ADN (dMMR)
+    </p>",
+    href: '#',
+    extraClass: true
+  },
+  {
     title: 'Carcinome urothélial',
     icon: 'bladder',
     hoverTitle: 'Carcinome urothélial',
@@ -92,26 +101,14 @@
     </p>',
     href: '#',
     extraClass: true
-  },
-  {
-    title: 'Carcinome colorectal',
-    icon: 'intestines',
-    hoverTitle: 'Carcinome urothélial',
-    hoverText: "<p>KEYTRUDA<sup>&reg;</sup> est indiqué en monothérapie dans le traitement de première ligne de patients adultes atteints de carcinome colorectal (CC) métastatique présentant une forte instabilité microsatellitaire (MSI-H) ou un déficit de réparation des mésappariements de l'ADN (dMMR)
-    </p>",
-    href: '#',
-    extraClass: true
   }
 ] %}
 
-
-
-
 <section class="organs-sec">
- <div class="organs-wrap">
-   <div class="organs">
-     <ul class="organs-list">
-      {% for item in list %}
+  <div class="organs-wrap">
+    <div class="organs">
+      <ul class="organs-list">
+        {% for item in list %}
         <li>
           <a href="{{ item.href }}" class="organs-list__item">
             <i class="organs-list__item-icon">
@@ -133,8 +130,8 @@
             </div>
           </div>
         </li>
-      {% endfor %}
-     </ul>
-   </div>
- </div>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </section>
