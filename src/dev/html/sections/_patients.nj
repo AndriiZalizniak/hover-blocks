@@ -1,0 +1,67 @@
+{% set PATIENTS = [
+  {
+    icon: 'old-man',
+    title: '60 jaar of ouder'
+  },
+  {
+    icon: 'fat-man',
+    title: 'Obesitas (BMI 30)'
+  },
+  {
+    icon: 'heart',
+    title: 'Ernstige hartaandoeningen'
+  },
+  {
+    icon: 'virus',
+    title: 'Actieve kanker'
+  },
+  {
+    icon: 'diabetic',
+    title: 'Diabetes'
+  },
+  {
+    icon: 'kidneys',
+    title: 'Chronische nierziekten'
+  },
+  {
+    icon: 'lungs',
+    title: 'Chronische longziekten'
+  },
+  {
+    icon: 'empty',
+    title: 'Verzwakt immuunsysteem'
+  }
+] %}
+
+<section class="lgv-patients-sec lgv-section-gap">
+  <div class="lgv-patients">
+    <div class="lgv-patients__head">
+      {{ titleBlock.titleBlock(title="LAGEVRIO (molnupiravir) is geschikt voor deze patiënten:<sup>2</sup>", subtitle="Bepaalde factoren kunnen de kans op ernstig verloop van COVID-19 doen toenemen<sup>1</sup>") }}
+
+      <p class="lgv-reg">
+        PatiDe onderstaande risicofactoren zijn opgesteld conform de NHG & LCI richtlijn voor COVID-19. Patiënten met
+        risicofactoren, en zij die met hen in contact komen, zouden extra maatregelen moeten nemen voor het beschermen
+        tegen COVID-19.<sup>3</sup>
+      </p>
+    </div>
+    <div class="lgv-patients__list-wrap">
+      <ul class="lgv-patients-list-type">
+        {% for item in PATIENTS %}
+        <li class="">
+          <div class="lgv-patients-list-type__item">
+            <span class="lgv-patients-list-type__item--icon">
+              <img src="./images/patients-icons/{{ item.icon }}.png" alt="">
+
+            </span>
+
+            <p class="lgv-patients-list-type__item--title lgv-reg lgv-txt-bold">
+              {{ item.title }}
+            </p>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</section>

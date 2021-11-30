@@ -1,0 +1,54 @@
+{% set ACCORDION_DATA = [
+  {
+    trigger: 'Werkingsmechanisme',
+    content: 'Heighten their level of attention. Get the HPV vaccine to prevent HPV cancers and genital warts. Experts
+    recommend that all boys and girls be vaccinated at young age, before any likely exposure to sexually transmitted
+    strains of HPV<sup>[17]</sup> to ensure the vaccinated person is not yet infected with the virus.'
+  },
+  {
+    trigger: 'Studieopzet',
+    content: '
+    <p class="lgv-reg">
+      De hier beschreven klinische data zijn gebaseerd op een interim analyse van de fase III MOVe-OUT studie met 775 gerandomiseerde patiënten. MOVe-OUT was een gerandomiseerde, placebo-gecontroleerde, dubbelblinde klinische studie dat de werkzaamheid van molnupiravir onderzocht voor de behandeling van niet gehospitaliseerde volwassen patiënten met milde tot matige COVID-19, die minstens één risicofactor hadden voor het ontwikkelen van ernstige COVID-19 en/of hospitalisatie t.o.v. placebo. Hierbij was het primaire eindpunt het percentage gehospitaliseerde of overleden patiënten ongeacht de oorzak in de MITT populatie.a De groep patiënten die LAGEVRIO (molnupiravir) ontving bestond uit 385 personen en de placebo-groep bestond uit 377 personen.
+    </p>
+    <p class="lgv-reg">
+      Geïncludeerd werden patiënten van 18 jaar of ouder met minstens één vooraf gedefinieerde risicofactor voor ziekteprogressie: 60 jaar of ouder, diabetes mellitus, obesitas (BMI >30), chronisch nierfalen, ernstige hartaandoeningen, chronische obstructieve longziekte of actieve kanker. De studie richtte zich op symptomatische patiënten die niet gevaccineerd waren tegen SARS-CoV-2 met een positief-geteste SARS-CoV-2 infectie en symptomen binnen 5 dagen vóór randomisatie. De patiënten werden 1:1 gerandomiseerd en ontvingen oraal 800 mg (tweemaal daags 400 mg) LAGEVRIO (molnupiravir) of tweemaal daags placebo gedurende 5 dagen.<sup>7</sup>
+    </p>
+    <p class="lgv-small">
+      a. Alle gerandomiseerde deelnemers die ≥ 1 dosis van de behandeling in de studie ontvingen en die niet gehospitaliseerd waren vóór de eerste dosis
+    </p>
+    '
+  },
+  {
+    trigger: 'Effectiviteit',
+    content: 'HPV vaccination could prevent more than 90% of cancers caused by HPV<sup>[18]</sup>. The virus is the
+    reason for
+    almost all cervical cancer<sup>[18]</sup>. Some cancers of the vulva, vagina, penis, anus, and oropharynx (back
+    of the throat,
+    including tongue and tonsils) are also caused by HPV<sup>[1]</sup>.
+'
+  },
+  {
+    trigger: 'Veiligheid',
+    content: 'The antibodies ensure that if an HPV virus enters the body,
+    the virus is destroyed so that the infection cannot develop.
+    Younger people produce the best immune response to the vaccine<sup>[18]</sup>. For optimal protection, the
+    vaccinated person
+    should not yet be infected with the virus.
+    That is why it’s important to get vaccinated at a young age, even before the first sexual contacts. The only 100
+    percent effective way to prevent HPV transmission is abstinence from sexual contact, including oral, anal, and
+    vaginal sex<sup>[18]</sup>.'
+  },
+  {
+    trigger: 'Dosering',
+    content: 'As a matter of fact, yes. The younger you are, the greater the risk for acquiring an infection. The age
+    group with the highest prevalence of HPV infection is between ages 15 and 25. The risk of infection is higher for
+    people under 25<sup>[18]</sup>. '
+  }
+] %}
+
+<section class="lgv-accordion-sec">
+  <div class="lgv-accordion">
+    {{ accordion.accordion(ACCORDION_DATA, classTrigger="lgv-h2") }}
+  </div>
+</section>

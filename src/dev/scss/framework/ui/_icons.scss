@@ -1,33 +1,29 @@
-@import '../../general/mixins.scss';
-@import '../../framework/scss-variables.scss';
+@import "../../general/mixins.scss";
+@import "../../framework/scss-variables.scss";
 
-[class*="organs-icon"] {
+[class*="lgv-icon"] {
   font-size: 20px;
   vertical-align: middle;
 }
 
-.organs-icon {
+.lgv-icon {
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.organs-icon-arrow-r {
+.lgv-icon-arrow-r {
   width: 1em;
   height: 1em;
 }
 
-.organs-head,
-.organs-thyroid-gland,
-.organs-virus,
-.organs-bladder,
-.organs-kidneys,
-.organs-body,
-.organs-lungs,
-.organs-cell,
-.organs-intestines,
-.organs-esophagus {
-  width: 65px !important;
-  height: 65px !important;
+.lgv-icon-award {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.lgv-icon-right-chevron {
+  width: 0.313rem;
+  height: 0.626rem;
 }

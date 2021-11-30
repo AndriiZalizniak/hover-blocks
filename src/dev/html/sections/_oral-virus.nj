@@ -1,0 +1,64 @@
+{% set QUESTIONS = [
+  {
+    title: 'Wat is het?',
+    text: 'LAGEVRIO (molnupiravir) is de eerste, effectieve en boostervrije orale antivirale behandeling, zonder interactie met andere geneesmiddelen en met een gunstig veiligheidsprofiel.'
+  },
+  {
+    title: 'Wat doet het?',
+    text: 'Dit medicijn wordt in zijn actieve vorm opgenomen in de cel en veroorzaakt een opsomming van fouten in het virale genoom, waarmee virusreplicatie geremd wordt.'
+  },
+  {
+    title: 'Hoe helpt het?',
+    text: 'Fase III klinisch onderzoek heeft aangetoond dat LAGEVRIO (molnupiravir) een 50% reductie veroorzaakt in ziekenhuisopname en overlijden ten opzichte van placebo.'
+  },
+  {
+    title: 'Voor wie is het?',
+    text: 'Veel van uw risicopatiënten kunnen bij bevestigde COVID-19 in aanmerking komen voor behandeling met LAGEVRIO (molnupiravir). Het middel is geïndiceerd voor behandeling van milde tot matige COVID-19 in volwassenen met een positieve SARS-COV-2 diagnostische test en ten minste één risicofactor voor het ontwikkelen van ernstig ziekteverloop.<sup>1</sup>'
+  },
+  {
+    title: 'Hoe wordt het gebruikt?',
+    text: 'De aanbevolen dosis voor LAGEVRIO (molnupiravir) is 800 mg (vier 200 mg capsules) dat iedere 12 uur gedurende 5 dagen oraal genomen wordt.'
+  }
+] %}
+
+<section class="lgv-oral-virus-sec lgv-section-gap">
+  {{ titleBlock.titleBlock(title="Orale virusremming tegen COVID-19 in de eerste lijn", subtitle="Een volgende stap in de bestrijding van de pandemie") }}
+
+  <div class="lgv-oral-virus">
+
+    <div class="lgv-oral-virus__content">
+      <ul class="lgv-oral-virus-list">
+        {% for item in QUESTIONS %}
+        <li class="lgv-oral-virus-list__item">
+          <strong class="lgv-oral-virus-list__item--title lgv-reg lgv-yellow">
+            {{ item.title | safe }}
+          </strong>
+
+          <p class="lgv-oral-virus-list__item--subtitle lgv-reg">
+            {{ item.text | safe }}
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="lgv-oral-virus__aside">
+      <picture>
+        <source srcset="./images/lgv/pills.webp" type="image/webp">
+        <source srcset="./images/lgv/pills.png" type="image/png">
+
+        <img class="lgv-oral-virus__aside--img" src="./images/lgv/pills.png" alt="pills">
+      </picture>
+
+      <div class="lgv-oral-virus-award">
+        <span class="lgv-oral-virus-award__svg">
+          {{ svg.icon("award") }}
+        </span>
+
+        <p class="lgv-reg lgv-txt-bold">
+          Op maandag 6 december 2021 heeft de Europese Medicijn Agentschap (EMA) het middel goedgekeurd
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

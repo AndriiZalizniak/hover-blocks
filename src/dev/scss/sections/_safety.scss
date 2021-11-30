@@ -1,0 +1,38 @@
+.lgv-safety-sec {
+}
+
+.lgv-safety {
+  @include media(">=small") {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  &__media,
+  &__content {
+    flex: 0 1 50%;
+  }
+
+  &__media {
+    @include media(">=small") {
+      margin-left: 2rem;
+    }
+
+    @include media("<small") {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
+
+  &__content {
+    .lgv-link {
+      margin-top: 2rem;
+      display: inline-block;
+
+      @include media(">=small") {
+        max-width: 90%;
+      }
+    }
+  }
+}

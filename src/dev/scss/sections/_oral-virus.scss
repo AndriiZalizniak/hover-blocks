@@ -1,0 +1,109 @@
+.lgv-oral-virus-sec {
+}
+
+.lgv-oral-virus {
+  margin-top: 2.5rem;
+
+  @include media(">medium") {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  @include media("<=medium") {
+  }
+
+  &__content {
+    @include media(">medium") {
+      margin-right: 1.5rem;
+      flex: 0 1 28.125rem;
+    }
+    @include media("<=medium") {
+    }
+  }
+
+  &__aside {
+    @include media(">medium") {
+      flex: 1;
+    }
+
+    @include media(">tiny", "<=medium") {
+      margin-top: 3rem;
+      display: flex;
+      align-items: stretch;
+
+      & > * {
+        &:first-child {
+          margin-right: 1rem;
+        }
+
+        flex: 0 1 50%;
+      }
+    }
+
+    @include media("<=tiny") {
+    }
+
+    &--img {
+      @include media(">medium") {
+        padding-top: 5.313rem;
+        padding-bottom: 5.313rem;
+        background-color: var(--grey-2);
+      }
+
+      @include media("<=medium") {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+
+    & > picture {
+      @include media(">tiny", "<=medium") {
+        display: inline-flex;
+        background-color: var(--grey-2);
+      }
+    }
+  }
+
+  .lgv-oral-virus-list {
+    --item-gap: 1.5rem;
+
+    &__item {
+      margin-bottom: var(--item-gap);
+      padding-bottom: var(--item-gap);
+      border-bottom: 1px solid var(--grey);
+
+      &:first-child {
+        padding-top: var(--item-gap);
+        border-top: 1px solid var(--grey);
+      }
+
+      &--title {
+        margin-bottom: 0.625rem;
+      }
+
+      &--subtitle {
+      }
+    }
+  }
+
+  .lgv-oral-virus-award {
+    padding: 2.875rem 2rem 2.5rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+
+    @include media(">medium") {
+      margin-top: 2.5rem;
+    }
+
+    @include media("<=medium") {
+    }
+
+    &__svg {
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+  }
+}

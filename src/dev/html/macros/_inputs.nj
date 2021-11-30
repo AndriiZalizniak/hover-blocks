@@ -3,9 +3,9 @@
 {% macro inputTxt(type = "", placeholder = "", class = "", id = "", name = "") %}
   <input type="{{type}}" placeholder="{{placeholder}}"
         {% if class %}
-        class="organs-input-txt {{ class }}"
+        class="lgv-input-txt {{ class }}"
         {% else %}
-        class="organs-input-txt"
+        class="lgv-input-txt"
         {% endif %}
 
         {% if id %}

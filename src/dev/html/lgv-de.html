@@ -1,0 +1,25 @@
+{% extends "./template/_layout.nj" %}
+
+{% block styles %}
+<link rel="stylesheet" href="styles/lgv.css">
+{% endblock %}
+
+{% block main %}
+<div class="lgv-wrap">
+  <div class="lgv-main-container">
+    <aside class="lgv-main-container__aside"></aside>
+
+    <div class="lgv-main-container__content">
+      {% include "./sections/_oral-virus.nj" %}
+      {% include "./sections/_patients.nj" %}
+      {% include "./sections/_early-treatment.nj" %}
+      {% include "./sections/_safety.nj" %}
+      {% include "./sections/_acc-sec.nj" %}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="scripts/scripts.js" async></script>
+{% endblock %}

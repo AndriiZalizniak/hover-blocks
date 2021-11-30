@@ -1,7 +1,7 @@
-@import '../../general/mixins.scss';
-@import '../scss-variables.scss';
+@import "../../general/mixins.scss";
+@import "../scss-variables.scss";
 
-.organs-btn {
+.lgv-btn {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -31,7 +31,7 @@
     pointer-events: none;
   }
 
-  &>span {
+  & > span {
     display: flex;
     width: 100%;
     align-items: center;
@@ -61,7 +61,7 @@
     height: 100%;
     width: 100%;
     background-color: var(--red);
-    content: '';
+    content: "";
     z-index: -1;
     transition: all 0.2s;
     pointer-events: none;

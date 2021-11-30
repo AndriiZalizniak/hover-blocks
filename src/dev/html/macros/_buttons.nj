@@ -1,11 +1,11 @@
 {% macro btnBase(text = "", type="button", color="", dataType=null, dataValue=[], class = "", id = "") %}
   <button type="{{type}}"
         {% if class %}
-        class="organs-btn {{color}} {{ class }}"
+        class="lgv-btn {{color}} {{ class }}"
         {% elif color %}
-        class="organs-btn {{color}}"
+        class="lgv-btn {{color}}"
         {% else %}
-        class="organs-btn"
+        class="lgv-btn"
         {% endif %}
 
         {% if dataType %}

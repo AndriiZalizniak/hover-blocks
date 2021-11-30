@@ -1,40 +1,98 @@
-@import './scss-variables';
-@import '../general/mixins.scss';
+@import "./scss-variables";
+@import "../general/mixins.scss";
 
 html,
 button,
 input,
 textarea {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, "Roboto", sans-serif;
 }
 
-.organs-h1 {}
+.lgv-h1 {
+}
 
-.organs-h2 {}
+.lgv-h2 {
+  font-weight: 400;
+  line-height: 120%;
 
-.organs-h3 {}
+  @include media(">medium") {
+    font-size: 2rem;
+  }
 
-.organs-h4 {}
+  @include media("<=medium") {
+    font-size: 1.75rem;
+  }
+}
 
-.organs-h5 {}
+.lgv-h3 {
+}
 
-.organs-h6 {}
+.lgv-h4 {
+}
 
-.organs-lead {}
+.lgv-h5 {
+}
 
-.organs-reg {}
+.lgv-h6 {
+}
 
-.organs-small {}
+.lgv-lead {
+}
 
-.organs-txt-upper {
+.lgv-reg {
+  line-height: 165%;
+
+  @include media(">medium") {
+    font-size: 1.0625rem;
+  }
+
+  @include media("<=medium") {
+    font-size: 0.875rem;
+  }
+}
+
+.lgv-small {
+  font-size: 0.938rem;
+  line-height: 130%;
+}
+
+.lgv-tag {
+  font-size: 0.875rem;
+  line-height: 130%;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--primary);
+}
+
+.lgv-txt-upper {
   text-transform: uppercase;
 }
 
+.lgv-txt-bold {
+  font-weight: 700;
+}
+
 // Colors
-.organs-white {
+.lgv-white {
   color: var(--white);
 }
 
-.organs-text {
+.lgv-text {
   color: var(--text);
+}
+
+.lgv-base-font {
+  color: var(--base-font);
+}
+
+.lgv-yellow {
+  color: var(--yellow);
+}
+
+.lgv-primary {
+  color: var(--primary);
+}
+
+.lgv-orange {
+  color: var(--orange);
 }

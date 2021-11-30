@@ -1,0 +1,11 @@
+{% macro titleBlock(title="", subtitle="") %}
+<div class="lgv-title-block">
+  <p class="lgv-title-block__subtitle lgv-tag">
+    {{ subtitle | safe }}
+  </p>
+
+  <h2 class="lgv-title-block__title lgv-h2">
+    {{ title | safe }}
+  </h2>
+</div>
+{% endmacro %}

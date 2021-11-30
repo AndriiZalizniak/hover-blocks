@@ -1,0 +1,24 @@
+<section class="lgv-early-treatment-sec lgv-section-gap">
+  <div class="lgv-early-treatment">
+    <div class="lgv-early-treatment__content">
+      {{ titleBlock.titleBlock(title="Het belang van vroege behandeling van COVID-19", subtitle="Piek virale replicatie in de eerste vijf dagen na infectie") }}
+
+      <p class="lgv-reg">
+        Het is aangetoond dat de SARS-CoV-2 replicatie piekt in de eerste vijf dagen na het begin van symptomen.
+        Hierdoor kan de mogelijkheid om het ziekteverloop te beïnvloeden vroeg na infectie vallen.<sup>4,5</sup>
+        Snelle
+        en ongecontroleerde virale replicatie van SARS-CoV-2 kan leiden tot systemische hyperinflammatie, ernstige
+        ziekte en/of hospitalisatie.<sup>6</sup>
+      </p>
+    </div>
+
+    <div class="lgv-early-treatment__media">
+      <picture>
+        <source srcset="./images/lgv/early-treatment.webp" type="image/webp">
+        <source srcset="./images/lgv/early-treatment.jpg" type="image/jpg">
+
+        <img src="./images/lgv/early-treatment.jpg" alt="">
+      </picture>
+    </div>
+  </div>
+</section>

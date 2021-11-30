@@ -1,7 +1,7 @@
-@import '../../general/mixins.scss';
-@import '../scss-variables.scss';
+@import "../../general/mixins.scss";
+@import "../scss-variables.scss";
 
-.organs-input-txt {
+.lgv-input-txt {
   padding-left: 2em;
   padding-right: 2em;
   border-radius: 2.625em;
@@ -10,7 +10,7 @@
   width: 100%;
   font-weight: 500;
   border: 1px solid rgba(0, 0, 0, 0);
-  transition: border-color .2s linear, background .2s linear;
+  transition: border-color 0.2s linear, background 0.2s linear;
 
   @include media(">tiny") {
     font-size: 16px;

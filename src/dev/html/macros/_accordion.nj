@@ -1,0 +1,23 @@
+{% macro accordion(data = "", classContainer = "", classItem = "", classHeader = "", classTrigger = "", classPanel = "", classText = "") %}
+
+<ul class="accordion-container {{ classContainer }}">
+  {% for item in data %}
+  <li class="ac {{ classItem }}">
+    <h3 class="ac-header {{ classHeader }}">
+      <button type="button" class="ac-trigger {{ classTrigger }}">
+        <span class="ac-trigger__inner">
+          {{ item.trigger }}
+        </span>
+      </button>
+    </h3>
+
+    <div class="ac-panel {{ classPanel }}">
+      <div class="ac-text {{ classText }}">
+        {{ item.content | safe }}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endmacro %}

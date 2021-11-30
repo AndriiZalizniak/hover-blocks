@@ -1,8 +1,9 @@
-@import '../scss-variables.scss';
-@import '../../general/mixins.scss';
+@import "../scss-variables.scss";
+@import "../../general/mixins.scss";
 
 body {
   min-width: $extratiny;
+  color: var(--base-font);
 }
 
 body,
@@ -12,10 +13,27 @@ html {
   }
 }
 
-.organs-wrap {
-  max-width: 1170px;
-  width: 100%;
+.lgv-wrap {
   margin: 0 auto;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: var(--gap);
+  padding-left: var(--gap);
+  max-width: var(--wrap);
+}
+
+.lgv-section-gap {
+  @include media(">medium") {
+    margin-bottom: 120px;
+  }
+
+  @include media("<=medium") {
+    margin-bottom: 80px;
+  }
+}
+
+.lgv-link {
+  transition: filter 0.2s linear;
+
+  &:hover {
+    filter: opacity(0.7);
+  }
 }

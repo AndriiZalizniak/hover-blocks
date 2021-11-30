@@ -1,0 +1,27 @@
+.lgv-early-treatment-sec {
+}
+
+.lgv-early-treatment {
+  @include media(">=small") {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  &__media,
+  &__content {
+    flex: 0 1 50%;
+  }
+
+  &__media {
+    @include media(">=small") {
+      margin-right: 2rem;
+    }
+
+    @include media("<small") {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  }
+}

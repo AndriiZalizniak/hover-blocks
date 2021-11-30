@@ -1,0 +1,71 @@
+.lgv-patients-sec {
+}
+
+.lgv-patients {
+  &__head {
+    margin-bottom: 2.5rem;
+    max-width: 40.625rem;
+  }
+
+  &__list-wrap {
+  }
+
+  .lgv-patients-list-type {
+    margin: 0 -0.5rem;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    & > li {
+      padding: 0 0.5rem 1rem;
+
+      @include media(">medium") {
+        flex: 0 1 25%;
+      }
+
+      @include media(">=small", "<=medium") {
+        flex: 0 1 33.3%;
+      }
+
+      @include media("<small") {
+        flex: 0 1 50%;
+      }
+    }
+
+    &__item {
+      padding: 1rem;
+      border: 1px solid var(--grey);
+      text-align: center;
+      height: 100%;
+
+      &--icon {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+        height: 6rem;
+        border: 6px solid var(--orange);
+        background-color: var(--white);
+        border-radius: 50%;
+
+        & > img {
+          width: 3.75rem;
+          height: 3.75rem;
+          object-fit: contain;
+        }
+      }
+
+      &--title {
+        line-height: 125%;
+
+        @include media("<=tiny") {
+          word-break: break-all;
+        }
+      }
+    }
+  }
+}

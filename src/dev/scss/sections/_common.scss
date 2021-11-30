@@ -1,0 +1,36 @@
+.lgv-main-container {
+  @include media(">medium") {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  @include media("<=medium") {
+    margin-top: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__aside {
+    @include media(">medium") {
+      margin-right: 1rem;
+      position: sticky;
+      top: var(--gap);
+      left: 0;
+      flex: 1;
+      height: 25rem;
+      background-color: rgba(230, 97, 78, 0.34);
+    }
+
+    @include media("<=medium") {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__content {
+    @include media(">medium") {
+      flex: 0 1 53.75rem;
+    }
+  }
+}

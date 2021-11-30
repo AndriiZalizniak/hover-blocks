@@ -1,0 +1,12 @@
+.lgv-accordion-sec {
+}
+
+.lgv-accordion {
+  .ac-panel {
+    & > div {
+      & > *:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

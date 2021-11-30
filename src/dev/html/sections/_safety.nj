@@ -1,0 +1,29 @@
+<section class="lgv-safety-sec lgv-section-gap">
+  <div class="lgv-safety">
+    <div class="lgv-safety__content">
+      {{ titleBlock.titleBlock(title="Efficacy and Safety of Molnupiravir (MK-4482) in Non-Hospitalized Adult Participants With COVID-19", subtitle="Resultaten van de fase III klinische studie") }}
+
+      <p class="lgv-reg">
+        De werkzaamheid en veiligheid van molnupiravir werd onderzocht in MOVe-OUT, een gerandomiseerde,
+        placebogecontroleerde, dubbelblinde klinische studie in niet-gehospitaliseerde volwassenen met milde tot matige
+        COVID-19. Het primaire eindpunt was het evalueren van de werkzaamheid van molnupiravir vergeleken met placebo
+        beoordeeld door het percentage patiënten dat gehospitaliseerd werd en/of overleed vanaf randomisatie tot dag 29.
+        Daarbij was het co-primaire eindpunt het onderzoeken van het veiligheidsprofiel.<sup>7</sup>
+      </p>
+
+      <a class="lgv-link lgv-reg lgv-primary lgv-txt-bold" href="http://example.com" target="_blank"
+        rel="noopener noreferrer">
+        Open de Fischer et al. (2021) publicatie op PubMed {{ svg.icon("right-chevron") }}
+      </a>
+    </div>
+
+    <div class="lgv-safety__media">
+      <picture>
+        <source srcset="./images/lgv/safety.webp" type="image/webp">
+        <source srcset="./images/lgv/safety.jpg" type="image/jpg">
+
+        <img src="./images/lgv/safety.jpg" alt="">
+      </picture>
+    </div>
+  </div>
+</section>
