@@ -1,0 +1,176 @@
+{% set FIRST_ITEM = '
+<div class="lgv-acc-data lgv-acc-data__first lgv-acc-data__column">
+  <picture>
+    <source srcset="./images/accordion/acc-1.webp" type="image/webp">
+    <source srcset="./images/accordion/acc-1.jpg" type="image/jpg">
+
+    <img src="./images/accordion/acc-1.jpg" alt="">
+  </picture>
+  
+  <p class="lgv-reg">LAGEVRIO (molnupiravir) is een prodrug die in het lichaam wordt omgezet in ribonucleotideanaloog
+    N-hydroxycytidine (NHC), wat vervolgens in de cellen wordt gefosforyleerd tot het actieve ribonucleotide trifosfaat
+    (NHC-TP). Dit kan met behulp van viraal RNA polymerase opgenomen worden in het virale RNA, wat resulteert in een
+    opsomming van fouten in het virale genoom en daarmee remming van virusreplicatie.<sup>1,7</sup></p>
+</div>
+' %}
+
+{% set SECOND_ITEM = '
+<div class="lgv-acc-data lgv-acc-data__second lgv-acc-data__item-gap">
+  <p class="lgv-reg">
+    De hier beschreven klinische data zijn gebaseerd op een interim analyse van de fase III MOVe-OUT studie met 775
+    gerandomiseerde patiënten. MOVe-OUT was een gerandomiseerde, placebo-gecontroleerde, dubbelblinde klinische studie
+    dat de werkzaamheid van molnupiravir onderzocht voor de behandeling van niet gehospitaliseerde volwassen patiënten
+    met milde tot matige COVID-19, die minstens één risicofactor hadden voor het ontwikkelen van ernstige COVID-19 en/of
+    hospitalisatie t.o.v. placebo. Hierbij was het primaire eindpunt het percentage gehospitaliseerde of overleden
+    patiënten ongeacht de oorzak in de MITT populatie.a De groep patiënten die LAGEVRIO (molnupiravir) ontving bestond
+    uit 385 personen en de placebo-groep bestond uit 377 personen.
+  </p>
+  <p class="lgv-reg">
+    Geïncludeerd werden patiënten van 18 jaar of ouder met minstens één vooraf gedefinieerde risicofactor voor
+    ziekteprogressie: 60 jaar of ouder, diabetes mellitus, obesitas (BMI >30), chronisch nierfalen, ernstige
+    hartaandoeningen, chronische obstructieve longziekte of actieve kanker. De studie richtte zich op symptomatische
+    patiënten die niet gevaccineerd waren tegen SARS-CoV-2 met een positief-geteste SARS-CoV-2 infectie en symptomen
+    binnen 5 dagen vóór randomisatie. De patiënten werden 1:1 gerandomiseerd en ontvingen oraal 800 mg (tweemaal daags
+    400 mg) LAGEVRIO (molnupiravir) of tweemaal daags placebo gedurende 5 dagen.<sup>7</sup>
+  </p>
+  <p class="lgv-small lgv-acc-data__opacity">
+    a. Alle gerandomiseerde deelnemers die ≥ 1 dosis van de behandeling in de studie ontvingen en die niet
+    gehospitaliseerd waren vóór de eerste dosis
+  </p>
+</div>
+' %}
+
+{% set THIRD_ITEM = '
+<div class="lgv-acc-data lgv-acc-data__third lgv-acc-data__column lgv-acc-data__item-gap">
+  <p class="lgv-reg">
+    Behandeling met LAGEVRIO (molnupiravir) resulteerde in 6,8% absolute risicoreductie (ARR) voor hospitalisatie en
+    dood (ongeveer 50% relatieve risicoreductie (RRR)). Alle 8 patiënten die overleden tot en met dag 29 van het
+    onderzoek bevonden zich in de placebo-groep en werden gehospitaliseerd voor hun overlijden. <sup>a,7</sup>
+  </p>
+  
+    <picture>
+      <source srcset="./images/accordion/acc-3.webp" type="image/webp">
+      <source srcset="./images/accordion/acc-3.jpg" type="image/jpg">
+
+      <img src="./images/accordion/acc-3.jpg" alt="">
+    </picture>
+</div>
+
+<p class="lgv-small lgv-acc-data__opacity">
+  a. Het berekende verschil in risico tussen LAGEVRIO (molnupiravir) en placebo is gebaseerd op Miettinen en Nurminen
+  methodologie, gestratificeerd over tijd tot de start van COVID-19 symptomen (≤ 3 days vs > 3 [4-5] days).
+  b. Gedefinieerd als ≥ 24 uur acute zorg in een ziekenhuis of een andersoortige zorginstelling.
+</p>
+' %}
+
+{% set FOURTH_ITEM = '
+<div class="lgv-acc-data lgv-acc-data__fourth lgv-acc-data__item-gap">
+  <p class="lgv-reg">
+    De veiligheid (co-primair eindpunt) van LAGEVRIO (molnupiravir) vergeleken met placebo werd onderzocht in de Safety
+    populatie a met 765 patiënten. In de interim analyse van dit onderzoek werden de volgende meest voorkomende
+    behandeling-gerelateerde bijwerkingen (bij ≥1% van de patiënten) gerapporteerd tijdens de behandeling met LAGEVRIO
+    (molnupiravir) en gedurende 14 dagen na de laatste dosis. Diarree (3%), misselijkheid (2%), duizeligheid (1%) en
+    hoofdpijn (1%), welke allemaal graad 1 (mild) or graad 2 (gematigd) zijn.<sup>1,7</sup>
+  </p>
+  
+    <picture>
+      <source srcset="./images/accordion/acc-4.webp" type="image/webp">
+      <source srcset="./images/accordion/acc-4.jpg" type="image/jpg">
+
+      <img src="./images/accordion/acc-4.jpg" alt="">
+    </picture>
+
+  <ul class="lgv-ul-list">
+    <li class="lgv-reg">Stopzetten of studieonderbreking door een bijwerking kwam voor in 1% van de patiënten uit de LAGEVRIO
+      (molnupiravir) arm en bij 3% van de patiënten uit de placebo arm.<sup>7</sup> </li>
+    <li class="lgv-reg">Ernstige bijwerkingen, die worden gezien als niet-gerelateerd aan de behandeling, kwamen voor in 7% van de
+      patiënten die LAGEVRIO (molnupiravir) ontvingen en 14% bij de placebo-groep.<sup>7</sup></li>
+    <li class="lgv-reg">Na dag 29 kwamen er geen bijwerkingen met de dood als gevolg voor in patiënten die LAGEVRIO (molnupiravir)
+      ontvingen. In de placebo-groep kwam dit bij 2,3% van de patiënten voor.<sup>7</sup></li>
+  </ul>
+
+  <p class="lgv-small lgv-acc-data__opacity">
+    a. Alle gerandomiseerde deelnemers die ≥ 1 dosis van de behandeling in de studie ontvingen
+  </p>
+</div>
+' %}
+
+{% set FIFTH_ITEM = '
+<div class="lgv-acc-data lgv-acc-data__fifth">
+  <p class="lgv-reg">
+    De aanbevolen dosis voor LAGEVRIO (molnupiravir) is 800 mg (vier 200 mg capsules) die iedere 12 uur gedurende 5 dagen
+    oraal genomen wordt. Er moet zo snel mogelijk LAGEVRIO (molnupiravir) gestart worden nadat de COVID-19 diagnose
+    gesteld is en binnen 5 dagen na de start van symptomen.<sup>7</sup>
+  </p>
+
+  <ul class="lgv-list-icon">
+    <li>
+      <img class="lgv-acc-icon" src="./images/patients-icons/pills.jpg" alt="">
+
+      <p class="lgv-reg lgv-txt-bold">
+        800 mg Vier 200 mg capsules
+      </p>
+    </li>
+
+    <li>
+        <img class="lgv-acc-icon" src="./images/patients-icons/day-night.jpg" alt="">
+
+      <p class="lgv-reg lgv-txt-bold">
+        Iedere 12 uur oraal ingenomen
+      </p>
+    </li>
+
+    <li>
+        <img class="lgv-acc-icon" src="./images/patients-icons/calendar.jpg" alt="">
+
+      <p class="lgv-reg lgv-txt-bold">
+        5 dagen lang
+      </p>
+    </li>
+
+    <li>
+        <img class="lgv-acc-icon" src="./images/patients-icons/food-service.jpg" alt="">
+
+      <p class="lgv-reg lgv-txt-bold">
+        Met of zonder voedsel in te nemen
+      </p>
+    </li>
+  </ul>
+
+  <div class="lgv-border-block">
+    <div class="lgv-border-block__icon">
+    <img class="lgv-acc-icon" src="./images/patients-icons/pills-2.jpg" alt="">
+
+    </div>
+
+    <div class="lgv-border-block__inner">
+      <div class="lgv-border-block__content">
+        <p class="lgv-reg lgv-txt-bold">Geen dosisaanpassingen nodig...</p>
+  
+        <ul class="lgv-ul-list">
+          <li class="lgv-reg">
+            wanneer genomen met vaak voorgeschreven medicijnen
+          </li>
+          <li class="lgv-reg">
+            in patiënten met nierfalen
+          </li>
+          <li class="lgv-reg">
+            in patiënten met leverfalen
+          </li>
+        </ul>
+      </div>
+
+      <p class="lgv-border-block__about lgv-reg">
+        Het wordt als onwaarschijnlijk gezien dat LAGEVRIO (molnupiravir) of het metaboliet NHC interactie heeft met
+        andere medicatie.<sup>7</sup>
+      </p>
+    </div>
+  </div>
+
+  <p class="lgv-reg lgv-txt-center">
+    Raadpleeg de volledige productinformatie (<a class="lgv-link lgv-primary" href="http://example.com" target="_blank"
+      rel="noopener noreferrer">SPC</a>) alvorens LAGEVRIO (molnupiravir) voor te schrijven.
+  </p>
+  
+</div>
+' %}

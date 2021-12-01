@@ -9,7 +9,7 @@
 
 <head>
   {% include './partials/_head.nj' %}
-  <link rel="stylesheet" href="styles/lgv-styles.css">
+  <link rel="stylesheet" href="styles/lagevrio-styles.css">
   {% block styles %}{% endblock %}
 </head>
 

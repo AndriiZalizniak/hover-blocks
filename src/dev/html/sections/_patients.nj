@@ -36,7 +36,7 @@
 <section class="lgv-patients-sec lgv-section-gap">
   <div class="lgv-patients">
     <div class="lgv-patients__head">
-      {{ titleBlock.titleBlock(title="LAGEVRIO (molnupiravir) is geschikt voor deze patiënten:<sup>2</sup>", subtitle="Bepaalde factoren kunnen de kans op ernstig verloop van COVID-19 doen toenemen<sup>1</sup>") }}
+      {{ titleBlock.titleBlock(title="LAGEVRIO (molnupiravir) is geschikt voor deze patiënten:<sup>1</sup>", subtitle="Bepaalde factoren kunnen de kans op ernstig verloop van COVID-19 doen toenemen<sup>2</sup>") }}
 
       <p class="lgv-reg">
         PatiDe onderstaande risicofactoren zijn opgesteld conform de NHG & LCI richtlijn voor COVID-19. Patiënten met
