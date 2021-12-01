@@ -5,7 +5,7 @@
 {% import "../macros/_accordion.nj" as accordion %}
 
 <!DOCTYPE html>
-<html lang="">
+<html lang="nl">
 
 <head>
   {% include './partials/_head.nj' %}
